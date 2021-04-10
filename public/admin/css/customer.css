@@ -1,0 +1,74 @@
+html, body{
+    font-family: 'Poppins', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .header-navbar  {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.topnav_bg{
+    background: #000000 !important;
+}
+.text-blue{
+    color: rgb(36, 27, 103);
+}
+.btn-green{
+    background: #013220;
+    color: #fff;
+}
+.btn-red{
+    background: #ff0000;
+}
+.text-green{
+    color: #013220;
+}
+.text-black{
+    color: #000000;
+}
+.btn.btn-social {
+    padding: 1.7rem 0.25rem 0.85rem 3.75rem;
+}
+
+.btn-social > :first-child, .btn-social-icon > :first-child {
+    border-right: none !important;
+}
+
+.loader {
+    border: 16px solid #000000; /* Light grey */
+    border-top: 16px solid #13c214; /* Blue */
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: 50%;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#login{
+    margin-top: 100px;
+}
+#register{
+    margin-top: 30px;
+}
+img#logo{
+    max-width: 168% !important;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 670px) {
+
+    .navbar-brand img.brand-logo {
+        max-width:241px !important;
+        max-height:56px !important;
+    }
+
+     #login, #register{
+        margin-top: 0 !important;
+    }
+     img#logo{
+         max-width:110% !important;
+     }
+
+}
